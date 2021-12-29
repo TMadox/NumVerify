@@ -9,7 +9,6 @@ import 'package:enterpreware_task/Logic/Services/other_exceptions.dart';
 import 'package:enterpreware_task/Misc/screen_size.dart';
 import 'package:enterpreware_task/View/Widgets/error_dialog.dart';
 import 'package:flutter/material.dart';
-
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 import 'package:provider/provider.dart';

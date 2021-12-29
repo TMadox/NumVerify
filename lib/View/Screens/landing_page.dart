@@ -4,7 +4,6 @@ import 'package:enterpreware_task/View/Screens/home_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class LandingPage extends StatefulWidget {
   const LandingPage({Key? key}) : super(key: key);
@@ -66,7 +65,7 @@ class _LandingPageState extends State<LandingPage> {
   }
 
   List<Widget> _buildScreens() {
-    return [HomePage(), const HistoryPage()];
+    return [const HomePage(), const HistoryPage()];
   }
 
   List<PersistentBottomNavBarItem> _navBarsItems() {
